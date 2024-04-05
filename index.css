@@ -1,0 +1,66 @@
+* {
+    margin: 0 auto;
+    max-width: 1280px;
+    box-sizing: border-box;
+   font-family: Bebas Neue;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.homework h2 {
+    color: white;
+}
+
+a {
+    background-color: rgb(166, 255, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 60px;
+    width: 300px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.homework,
+.classwork {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    padding: 60px;
+    gap: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
